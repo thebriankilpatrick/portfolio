@@ -14,25 +14,47 @@
     <body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <nav>
-            <div class="nav-wrapper">
-              <a href="#!" class="brand-logo">Brian Kilpatrick</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                  <!--Try to set these links as points in the page?-->
-                  <!--Or... You can link your github and linkedin here-->
-                <li><a href="placeholder">Portfolio</a></li>
-                <li><a href="assets/images/brianKilpatrickResume.pdf" target="_blank">Resume</a></li>
-                <li><a href="placeholder">Contact</a></li>
-              </ul>
-            </div>
-        </nav>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Brian Kilpatrick</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <!--Try to set these links as points in the page?-->
+                    <!--Or... You can link your github and linkedin here-->
+                    <li><a href="placeholder">Portfolio</a></li>
+                    <li><a href="assets/images/brianKilpatrickResume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="placeholder">Contact</a></li>
+                </ul>
+                </div>
+            </nav>
+        </div>
     
         <ul class="sidenav" id="mobile-demo">
             <li><a href="placeholder">Portfolio</a></li>
             <li><a href="assets/images/brianKilpatrickResume.pdf" target="_blank">Resume</a></li>
             <li><a href="placeholder">Contact</a></li>
         </ul>
+
+        <div class="col s12 m12 l12" id="aboutMe">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://lorempixel.com/100/190/nature/6"> <!--Replace with image of yourself (something a little wider)-->
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>I'm a studying full stack developer from Richmond, VA. 
+                      I've also studied culinary arts and music, which share one common characteristic... 
+                      I love to create things.  I took my love for creation and applied it to web development, 
+                      so now I can share my creations with you.  <!--Too short, I need more-->
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a> <!--Link to somewhere?-->
+                </div>
+              </div>
+            </div>
+        </div>
 
         <!--This is where you will link your projects as cards-->
         <div class="row" id="projects">
@@ -43,7 +65,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Box-Office Depot<i class="material-icons right">more_vert</i></span>
-                        <p><a href="https://krpharr.github.io/box-office-depot/index.html">Link to Project</a></p>
+                        <p><a href="https://krpharr.github.io/box-office-depot/index.html" target="_blank">Link to Project</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Box-Office Depot<i class="material-icons right">close</i></span>
@@ -63,7 +85,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
-                        <p><a href="https://thebriankilpatrick.github.io/weather-dashboard/">Link to Project</a></p>
+                        <p><a href="https://thebriankilpatrick.github.io/weather-dashboard/" target="_blank">Link to Project</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Weather Dashboard<i class="material-icons right">close</i></span>
@@ -83,7 +105,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Trivia Quiz<i class="material-icons right">more_vert</i></span>
-                        <p><a href="https://thebriankilpatrick.github.io/Code-Quiz/">Link to Project</a></p>
+                        <p><a href="https://thebriankilpatrick.github.io/Code-Quiz/" target="_blank">Link to Project</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Trivia Quiz<i class="material-icons right">close</i></span>
