@@ -1,3 +1,4 @@
+/* Navbar styling */
 .brand-logo {
     margin-left: 10px;
 }
@@ -6,6 +7,19 @@
     margin: 35px 25px;
 }
 
+/* Portfolio card container */
 #projects {
     margin: 20px;
+}
+
+/* Portfolio cards styling */
+#portfolioCard {
+    position: relative;
+    top: 0;
+    transition: ease;
+}
+
+#portfolioCard:hover {
+    top: -4px;
+    transition: 0.5s;
 }
