@@ -24,9 +24,33 @@
     max-height: 150px;
 }
 
+.container {
+    margin: 0 auto;
+}
+
 .row {
     margin-top: 50px;
 }
+
+.fas {
+    color: rgb(54, 54, 54);
+    margin-right: 4px;
+}
+
+.fas:hover {
+    cursor: pointer;
+    color: #26A69A;
+}
+
+.iconBtn {
+    color: rgb(54, 54, 54);
+}
+
+.iconBtn:hover {
+    cursor: pointer;
+    color: #26A69A;
+}
+
 
 /* Portfolio card container */
 #projects {
@@ -43,5 +67,23 @@
 #portfolioCard:hover {
     top: -4px;
     transition: 0.5s;
+}
+
+@media only screen and (max-width: 1090px) {
+    .test {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .iconContainer {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .iconBtn {
+        position: relative;
+        top: 14px;
+    }
 }
  
