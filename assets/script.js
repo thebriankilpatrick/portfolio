@@ -7,8 +7,7 @@ $(".sidenav-trigger").click(function() {
     $(".sidenav").sidenav();
 })
 
-
-// Try removing the style: transform and set it to "none"
+// Animate scroll functions on click
 $("#jumboBtn").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $(".aboutTarget").offset().top
@@ -27,6 +26,7 @@ $("#portfolioBtn").click(function() {
     }, 2000);
 });
 
+// Animate scroll functions for hamburger nav on click
 $("#sideAboutBtn").click(function() {
     $(".sidenav").removeAttr("style", "transform: translateX(0%)");
     $(".sidenav").css("style", "transform: translateX(-105%)");
@@ -50,3 +50,13 @@ $("#sidePortfolioBtn").click(function() {
     }, 2000);
     $(".sidenav-overlay").css("style", "opacity: 0");
 });
+
+// Jumbotron Picture click function
+var i = 0;
+
+$("#portfolioPic").click(function() {
+    if (i === 0) {
+    $(".imgContainer").prepend($("<p id='hireMe'>").text("I'm available for hire!"));
+    i++;
+    }
+})

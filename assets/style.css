@@ -15,6 +15,7 @@
 
 #jumboH1 {
     margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #jumboBtn {
@@ -25,6 +26,11 @@
     max-height: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#portfolioPic:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Styling for the About Me section */
@@ -61,6 +67,7 @@
 /* Portfolio card container */
 #projects {
     margin: 20px;
+    margin-bottom: 50px;
 }
 
 /* Portfolio cards styling */

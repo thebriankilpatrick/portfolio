@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" type="text/css" href="assets/style.css">
         <script src="https://kit.fontawesome.com/5442a2e73b.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
@@ -17,7 +18,7 @@
 
         <div class="navbar-fixed">
             <nav>
-                <div class="nav-wrapper cyan lighten-3"> <!--Navbar color, try to find something that works-->
+                <div class="nav-wrapper cyan lighten-3">
                 <a href="index.html" class="brand-logo">Brian Kilpatrick</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
@@ -28,13 +29,15 @@
                 </div>
             </nav>
         </div>
-    
+
+        <!--Hamburger nav display-->
         <ul class="sidenav" id="mobile-demo">
             <li><a href="#aboutTarget" id="sideAboutBtn">About</a></li>
             <li><a href="#portfolioTarget" id="sidePortfolioBtn">Portfolio</a></li>
             <li><a href="assets/images/brianKilpatrickResume.pdf" target="_blank">Resume</a></li>
         </ul>
 
+        <!--Jumbotron display-->
         <div class="materializeJumbotron">
             <h1 id="jumboH1">Brian Kilpatrick</h1>
             <div class="imgContainer">
@@ -45,6 +48,7 @@
             <a class="btn btn-primary btn-lg" href="#aboutTarget" id="jumboBtn" role="button">About Me</a>
         </div>
 
+        <!--About Me and Contact section-->
         <a class="aboutTarget"></a>
         <div class="container">
             <div class="row">
@@ -82,10 +86,10 @@
             </div>
         </div>
 
-        <!--This is where you will link your projects as cards-->
+        <!--Where the projects are linked and displayed as cards-->
         <a class="portfolioTarget"></a>
         <div class="row" id="projects">
-            <div class="col m4 l4" id="portfolioCard"> <!--Col small size?-->
+            <div class="col m4 l4" id="portfolioCard">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/boxOffice.PNG">
@@ -106,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="col m4 l4" id="portfolioCard"> <!--Col small size?-->
+            <div class="col m4 l4" id="portfolioCard">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/weatherDashboard.PNG">
@@ -127,7 +131,7 @@
                 </div>
             </div>
 
-            <div class="col m4 l4" id="portfolioCard"> <!--Col small size?-->
+            <div class="col m4 l4" id="portfolioCard">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/triviaQuiz.PNG">
