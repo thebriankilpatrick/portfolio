@@ -3,9 +3,10 @@
     margin-left: 10px;
 }
 
+/* Styling for my jumbotron */
 .materializeJumbotron {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 60px;
@@ -22,16 +23,21 @@
 
 #portfolioPic {
     max-height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+/* Styling for the About Me section */
 .container {
     margin: 0 auto;
 }
 
 .row {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+/* Icon button styling */
 .fas {
     color: rgb(54, 54, 54);
     margin-right: 4px;
@@ -69,9 +75,11 @@
     transition: 0.5s;
 }
 
-@media only screen and (max-width: 1090px) {
-    .test {
-        font-size: 10px;
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 400px) {
+    .brand-logo {
+        font-size: 25px !important;
+        margin-left: 0;
     }
 }
 

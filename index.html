@@ -21,10 +21,8 @@
                 <a href="index.html" class="brand-logo">Brian Kilpatrick</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <!--Try to set these links as points in the page?-->
-                    <!--Or... You can link your github and linkedin here-->
-                    <li><a href="#aboutTarget">About</a></li>
-                    <li><a href="#portfolioTarget">Portfolio</a></li>
+                    <li><a href="#aboutTarget" id="aboutBtn">About</a></li>
+                    <li><a href="#portfolioTarget" id="portfolioBtn">Portfolio</a></li>
                     <li><a href="assets/images/brianKilpatrickResume.pdf" target="_blank">Resume</a></li>
                 </ul>
                 </div>
@@ -32,7 +30,7 @@
         </div>
     
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="#aboutTarget">About</a></li>
+            <li><a class="#aboutTarget">About</a></li>
             <li><a href="#portfolioTarget">Portfolio</a></li>
             <li><a href="assets/images/brianKilpatrickResume.pdf" target="_blank">Resume</a></li>
         </ul>
@@ -44,13 +42,13 @@
             </div>
             <hr>
             <p>Full Stack Web Developer from Richmond, VA</p>
-            <a class="btn btn-primary btn-lg" href="#" id="jumboBtn" role="button">Learn more</a>
+            <a class="btn btn-primary btn-lg" href="#aboutTarget" id="jumboBtn" role="button">About Me</a>
         </div>
 
-        <a name="aboutTarget"></a>
+        <a class="aboutTarget"></a>
         <div class="container">
             <div class="row">
-                <div class="col s12 m8 l8" id="aboutMe">
+                <div class="col s12 m7 l8" id="aboutMe">
                     <h4>About Me</h4>
                     <p>I'm a studying full stack developer from Richmond, VA.
                         I've also studied culinary arts and music, which share one common characteristic... 
@@ -70,7 +68,7 @@
                         and it is the challenge that keeps me motivated, inspired, and coming back for more. 
                     </p>
                 </div>
-                <div class="col s12 m4 l4">
+                <div class="col s12 m5 l4">
                     <h4>Contact</h4>
                     <div class="iconContainer">
                         <p><i class="fas fa-envelope fa-2x"></i>TheBrianKilpatrick@Gmail.com</p>
@@ -85,7 +83,7 @@
         </div>
 
         <!--This is where you will link your projects as cards-->
-        <a name="portfolioTarget"></a>
+        <a class="portfolioTarget"></a>
         <div class="row" id="projects">
             <div class="col m4 l4" id="portfolioCard"> <!--Col small size?-->
                 <div class="card">
