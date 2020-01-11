@@ -6,8 +6,10 @@
         </title>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script src="https://kit.fontawesome.com/5442a2e73b.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
@@ -16,7 +18,7 @@
 
         <div class="navbar-fixed">
             <nav>
-                <div class="nav-wrapper">
+                <div class="nav-wrapper cyan lighten-3"> <!--Navbar color, try to find something that works-->
                 <a href="#!" class="brand-logo">Brian Kilpatrick</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
@@ -36,39 +38,43 @@
             <li><a href="placeholder">Contact</a></li>
         </ul>
 
-        <div class="col s12 m12 l12" id="aboutMe">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="placeholder"> <!--Replace with image of yourself (something a little wider)-->
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                    <h4>About Brian Kilpatrick</h4>
-                    <p>I'm a studying full stack developer from Richmond, VA.
-                        I've also studied culinary arts and music, which share one common characteristic... 
-                        I love to create things.  I took my love for creation and applied it to web development, 
-                        so now I can share my creations with you.
-                    </p>
-                    <br>
-                    <p>For the past twelve years, I have been 
-                        in the restaurant industry, with the last 6 of those years in management.
-                        The further I climbed up this ladder, the more I felt something was missing.
-                        I knew it was time to make the leap.
-                    </p>
-                    <br>
-                    <p>I have worked with HTML, CSS, JavaScript, jQuery and other JS libraries,
-                        Node, various API's, and frameworks such as Bootstrap and Materialize.
-                    </p>
-                    <br>
-                    <p>My journey into web development has been, and still is, one of the
-                        most rewarding things I've ever done.  I am constantly being challenged,
-                        and it is the challenge that keeps me motivated, inspired, and coming back for more. 
-                    </p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a> <!--Link to somewhere?-->
-                </div>
-              </div>
+        <div class="jumbotron">
+            <h1 class="display-4 text-center">Brian Kilpatrick</h1>
+            <div class="imgContainer">
+                <img src="assets/images/portfolioPic.jpg" id="portfolioPic" class="circle">
+            </div>
+            <hr class="my-4">
+            <p>Full Stack Web Developer from Richmond, VA</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </div>
+
+        <div class="row">
+            <div class="col s4 m4 l4" id="aboutMe">
+                <h4>About Me</h4>
+                <p>I'm a studying full stack developer from Richmond, VA.
+                    I've also studied culinary arts and music, which share one common characteristic... 
+                    I love to create things.  I took my love for creation and applied it to web development, 
+                    so now I can share my creations with you.
+                </p>
+                <p>For the past twelve years, I have been 
+                    in the restaurant industry, with the last 6 of those years in management.
+                    The further I climbed up this ladder, the more I felt something was missing.
+                    I knew it was time to make the leap.
+                </p>
+                <p>I have worked with HTML, CSS, JavaScript, jQuery and other JS libraries,
+                    Node, various API's, and frameworks such as Bootstrap and Materialize.
+                </p>
+                <p>My journey into web development has been, and still is, one of the
+                    most rewarding things I've ever done.  I am constantly being challenged,
+                    and it is the challenge that keeps me motivated, inspired, and coming back for more. 
+                </p>
+            </div>
+            <div class="col s4 m4 l4">
+                <h4>Contact</h4>
+                <p><i class="fas fa-envelope fa-2x"></i></p>
+                <p><i class="fas fa-phone fa-2x"></i></p>
+                <p><i class="fab fa-linkedin fa-2x"></i></p>
+                <p><i class="fab fa-github fa-2x"></i></p>
             </div>
         </div>
 

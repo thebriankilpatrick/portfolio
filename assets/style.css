@@ -3,8 +3,16 @@
     margin-left: 10px;
 }
 
-#aboutMe {
-    margin: 35px 25px;
+.jumbotron {
+    text-align: center;
+}
+
+#portfolioPic {
+    max-height: 150px;
+}
+
+.row {
+    margin-top: 35px;
 }
 
 /* Portfolio card container */
@@ -23,3 +31,4 @@
     top: -4px;
     transition: 0.5s;
 }
+ 
