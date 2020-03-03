@@ -15,7 +15,13 @@
 
 #jumboH1 {
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt';
+}
+
+#jumboH1:hover {
+    cursor: pointer;
+    transition: 1s;
+    color: #26A69A;
 }
 
 #jumboBtn {
@@ -23,7 +29,7 @@
 }
 
 #portfolioPic {
-    max-height: 150px;
+    max-height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
 }

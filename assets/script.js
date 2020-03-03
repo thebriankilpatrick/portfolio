@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('.tooltipped').tooltip();
+});
+
 // Function for hamburger sidenav display 
 $(document).ready(function() {
     $('.sidenav').sidenav();
