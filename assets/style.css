@@ -71,19 +71,30 @@
 
 
 /* Portfolio card container */
-#projects {
+.projects {
     margin: 20px;
+}
+
+#lastRow {
     margin-bottom: 50px;
 }
 
 /* Portfolio cards styling */
-#portfolioCard {
+.portfolioCard {
+    max-height: 305px;
+    box-sizing: border-box;
+    /* position: relative;
+    top: 0;
+    transition: ease; */
+}
+
+.card {
     position: relative;
     top: 0;
     transition: ease;
 }
 
-#portfolioCard:hover {
+.card:hover {
     top: -4px;
     transition: 0.5s;
 }
