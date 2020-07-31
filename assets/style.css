@@ -110,6 +110,10 @@
     transition: 0.5s;
 }
 
+.card-image{
+    max-height: 198px;
+}
+
 /* Media Queries for responsiveness */
 @media only screen and (max-width: 400px) {
     .brand-logo {
