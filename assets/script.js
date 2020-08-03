@@ -18,6 +18,12 @@ $("#jumboBtn").click(function() {
     }, 2000);
 });
 
+$("#portfolioPic").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(".aboutTarget").offset().top
+    }, 2000);
+});
+
 $("#aboutBtn").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $(".aboutTarget").offset().top
@@ -56,11 +62,11 @@ $("#sidePortfolioBtn").click(function() {
 });
 
 // Jumbotron Picture click function
-var i = 0;
+// var i = 0;
 
-$("#portfolioPic").click(function() {
-    if (i === 0) {
-    $(".imgContainer").prepend($("<p id='hireMe'>").text("I'm available for hire!"));
-    i++;
-    }
-})
+// $("#portfolioPic").click(function() {
+//     if (i === 0) {
+//     $(".imgContainer").prepend($("<p id='hireMe'>").text("I'm available for hire!"));
+//     i++;
+//     }
+// })
